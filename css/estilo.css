@@ -178,7 +178,7 @@ aside {
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #DAF7A6 !important;
+  color: #900C3F !important;
   font-weight: 600;
   background-color: transparent;
 }
@@ -286,7 +286,12 @@ aside {
 }
 
 #contact {
-  background-color: #1a1a1a;
+  background-color: #010101;
+  text-align: center;
+}
+
+#contact i {
+  padding: 20px;
 }
 
 
@@ -305,7 +310,12 @@ aside {
     }
 
     #about {
-      padding: 20px;
+      padding: 25px;
+      
+    }
+
+    #habilidades {
+      padding-bottom: 25px;
     }
 }
 
