@@ -65,7 +65,11 @@ a:focus {
   
 
 }
-
+img {
+  width: 25%;
+  height: auto;
+  padding: 20px;
+}
 #subtitulo {
   color: #000000;
 }
