@@ -92,13 +92,27 @@ a:focus {
   position: relative;
   width: 50%;
 }
-img {
+video, img {
   width: 100%;
   height: auto;
   padding: 5px;
 }
 
+.hover  img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover video:hover {
+	opacity: .5;
+}
+.hidden {
+  display: none;
+}
 
+.show {
+  display: block;
+}
 
 #subtitulo {
   color: #000000;
